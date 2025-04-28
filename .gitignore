@@ -7,9 +7,6 @@
 *.exe
 
 # Dataset files - Be specific about paths to avoid excluding necessary text files
-/dataset/
-/dataset/**
-/datasets/
 /datasets/**
 /graph.changes
 /graph.csr
