@@ -1,0 +1,51 @@
+# Build artifacts
+/.vscode
+/dssp_update
+/main.o
+*.o
+*.out
+*.exe
+
+# Dataset files - Be specific about paths to avoid excluding necessary text files
+/dataset/
+/dataset/**
+/datasets/
+/datasets/**
+/graph.changes
+/graph.csr
+/**/*.csr
+/**/*.bin
+/**/*.graph
+/**/*.changes
+
+# Results and logs
+/results/
+/results/**
+/results.csv
+/**/*.csv
+/**/*.log
+/**/*.json
+/**/*.dat
+/**/*.results
+
+# Temporary files
+/**/*.tmp
+/**/*.temp
+/**/*.swp
+/**/*~
+
+# OS-specific files
+/**/.DS_Store
+/**/Thumbs.db
+
+# Generated spanning tree files - Use absolute paths
+/initial_sssp_tree.txt
+/**/*_tree.txt
+
+# Large files (typically >10MB)
+/**/*.zip
+/**/*.tar.gz
+/**/*.tar
+/**/*.tgz
+
+/*/*.log
